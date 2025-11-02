@@ -112,21 +112,24 @@ Nếu bạn muốn tự mình chạy lại toàn bộ quy trình:
 ---
 
 ## 📂 Cấu trúc Thư mục
+```
 DSP501_SpeechEmotionRecognition/
-├── 📁 app/
-│   └── app.py — File chạy Demo (Streamlit)
-├── 📁 data/
-│   ├── 📁 raw/ — Chứa dataset gốc RAVDESS (Actor_01...)
-│   └── 📁 processed/ — Chứa các file đã xử lý (.npy: features, labels, X_cnn…)
-├── 📁 deliverables/ — Báo cáo, slide, video nộp bài
-├── 📁 models/
-│   └── rf_emotion_model_v1.pkl — Mô hình Random Forest mà Demo sử dụng
-├── 📁 notebooks/
+├── app/
+│   └── app.py                    # Streamlit demo
+├── data/
+│   ├── raw/                      # Dữ liệu gốc RAVDESS (Actor_01...)
+│   └── processed/                # File đã xử lý (.npy: features, labels, X_cnn…)
+├── deliverables/                 # Báo cáo, slide, video nộp bài
+├── models/
+│   ├── rf_emotion_model_v1.pkl   # Mô hình Random Forest dùng cho Demo
+│   └── (các file mô hình khác: .pkl, .h5, ...)
+├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_feature_extraction.ipynb
 │   ├── 03_model_training.ipynb
 │   ├── 04_cnn_model.ipynb
 │   └── 05_filtering.ipynb
-├── 📁 results/ — Biểu đồ, hình ảnh và kết quả để chèn vào báo cáo
-├── requirements.txt — Danh sách thư viện Python
-└── README.md — Hướng dẫn dự án
+├── results/                      # Biểu đồ, hình ảnh và kết quả để chèn vào báo cáo
+├── requirements.txt              # Danh sách thư viện Python
+└── README.md                     # Hướng dẫn dự án
+```
