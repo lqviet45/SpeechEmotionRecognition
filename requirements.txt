@@ -1,0 +1,16 @@
+# Core DSP, AI & Plotting
+numpy
+scipy
+librosa
+scikit-learn
+tensorflow
+matplotlib
+tqdm
+seaborn
+
+# For Notebooks
+jupyterlab
+
+# For Front-End App
+streamlit
+streamlit-audiorecorder

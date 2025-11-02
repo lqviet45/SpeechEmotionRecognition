@@ -1,0 +1,97 @@
+# .gitignore for SpeechEmotionRecognition project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+*.cpp
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Model checkpoints and weights
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Numpy arrays, large binaries (optional)
+*.npy
+*.npz
+
+# Project data, artifacts and outputs (ignore large or generated files)
+data/raw/
+
+# Python bytecode
+*.pyc
+
+# Temporary files
+*.tmp
+*.swp
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+
+# Coverage / profiler
+coverage.xml
+
+# Misc
+.cache/
+
+# End of .gitignore
